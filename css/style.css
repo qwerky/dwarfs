@@ -1,0 +1,174 @@
+
+div#header {
+	height: 20px;
+}
+
+div#footer {
+	width: 80%;
+}
+
+div.panel {
+	height: 300px;
+	overflow: auto;
+}
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.height-200 {
+	height: 200px;
+}
+
+.half-column {
+	float: left;
+	width: 40%;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.big-border {
+	border: ridge #A9BCF5 10px;
+}
+
+.no-bullets {
+	list-style-type: none;
+}
+
+.dark-grey {
+	color: #888888;
+}
+
+.dark-green {
+	color: #0B6121;
+}
+
+.brown-tinge {
+	background: #FFFDF3;
+}
+
+.smaller {
+	font-size: 80%;
+}
+
+table.more-space td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.pad-sides{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.building {
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	cursor: default;
+}
+
+div.research {
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	cursor: default;
+}
+
+div.recipe {
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: default;
+}
+
+a.tab-header {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.no-select {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#building-tooltip, div#research-tooltip, div#manufacturing-tooltip{
+	width: 200px;
+	height: auto;
+	border: solid #dddddd 2px;
+	background: #eeeeee;
+	position: absolute;
+	padding: 3px;
+}
+
+div.too-expensive {
+	border: outset #D8CEF6 5px;
+	background: #E6E0F8;
+}
+
+div.affordable {
+	border: outset #BCF5A9 5px;
+	background: #D8F6CE;
+}
+
+
+div#smithing-recipes .affordable {
+	border: solid #000000 1px;
+	color: #000000;
+}
+
+div#smithing-recipes .too-expensive {
+	border: none;
+	color: #666666;
+}
+
+div#smithing-recipes .busy {
+	color: #666666; !important
+}
+
+div#smithing-queue .smith-item {
+	border: solid #37A5AB 1px;
+	float: left;
+	width: 100%;
+}
+
+div#smithing-queue .smith-progress {
+	background: #79F7FD;
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+}
+
+.list-select {
+	cursor: default;
+}
+
+.list-parent {
+	overflow: auto;
+	border: outset #444444 2px;
+}
+
+.list-selected {
+	background: #CEE3F6;
+}
